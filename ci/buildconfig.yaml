@@ -4,7 +4,7 @@ metadata:
   labels:
     build: highscore
   name: highscore
-  namespace: arcade
+  namespace: yogender027mae-dev
 spec:
   failedBuildsHistoryLimit: 5
   nodeSelector: null
@@ -14,7 +14,7 @@ spec:
       name: highscore:latest
   runPolicy: Serial
   source:
-    contextDir: highscore
+    contextDir: highscore-game
     git:
       uri: https://github.com/NautiluX/s3e
     type: Git
@@ -23,6 +23,6 @@ spec:
       from:
         kind: ImageStreamTag
         name: alpine:latest
-        namespace: arcade
+        namespace: yogender027mae-dev
     type: Docker
   successfulBuildsHistoryLimit: 5
