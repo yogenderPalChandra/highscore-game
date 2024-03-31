@@ -5,7 +5,7 @@ metadata:
   labels:
     app: highscore
   name: highscore
-  namespace: arcade
+  namespace: yogender027mae-dev
 spec:
   ports:
   - port: 8080
