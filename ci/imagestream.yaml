@@ -5,7 +5,7 @@ metadata:
   labels:
     build: highscore
   name: highscore
-  namespace: arcade
+  namespace: yogender027mae-dev
 spec:
   lookupPolicy:
     local: false
@@ -19,7 +19,7 @@ metadata:
   labels:
     build: s3e
   name: alpine
-  namespace: arcade
+  namespace: yogender027mae-dev
 spec:
   lookupPolicy:
     local: false
